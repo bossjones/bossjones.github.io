@@ -32,7 +32,7 @@ animated_fins:    true
 # Specify the fin color in RGB value
 fin_color:        "255,255,255"
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-#url:              http://tonydark.io
+url:              http://tonydark.io
 
 # Owner/author information
 owner:
