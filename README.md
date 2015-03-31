@@ -22,3 +22,47 @@ You can run `jekyll serve --watch` and `grunt watch` at the same time to watch f
 ## Support
 
 Visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ and leave a comment, email feedback@startbootstrap.com, or open an issue here on GitHub for support.
+
+TONYDARK.IO
+=====
+
+## How to get setup
+
+If you don't already have Jekyll, run: `gem install jekyll`
+
+If you don't already have Bundler, run: `gem install bundler`
+
+If you don't already have the site locally, fork and clone.
+
+To get dependencies run from the site directory: `bundle install`
+
+## How to run Jekyll locally
+
+**serve only**
+
+`bundle exec jekyll serve`
+
+**serve and watch for changes**
+
+`bundle exec jekyll serve --watch`
+
+**serve drafts and watch for changes**
+
+`bundle exec jekyll serve --watch --drafts`
+
+
+## How to contribute content
+
+1. If you are not already in the authors file, add yourself
+1. In a local fork, preferably in a branch off of master, write in a markdown file (`.md`) in the `_drafts` folder, optionally committing the work to manage "revisions" and push to your remote if you'd like to keep your work "backed up"
+1. When ready for review (final or incremental), push the post upstream and open a pull request
+- note: if you are looking for comments but not ready to publish, keep the post in the `_drafts` directory; if you are ready to publish, move the file to the `_posts` directory and prefix the filename with the date (`2015-09-27-my-fence-post.md`) before opening the pull request
+1. Colleagues can then view and comment on the post (potentially with a "diff" of a previous version, if one exists in the "upstream")
+1. Once you and the reviewer(s) are satisfied, merge the PR. If the content was moved to the `_posts` directory in the PR, then you are now "published."
+
+
+## References
+
+- [Jekyll docs](http://jekyllrb.com/docs/home/)
+- [Markdown docs](http://daringfireball.net/projects/markdown/)
+- [Github Flow guide](https://guides.github.com/introduction/flow/)
