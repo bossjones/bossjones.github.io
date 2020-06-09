@@ -11,9 +11,14 @@ bundle:
 test:
 	bundle install --with test
 
-#	bundle exec rake test:ci
+jekyll:
+	bundle exec jekyll serve
 
+jekyll-watch:
+	bundle exec jekyll serve --watch
 
+jekyll-watch-drafts:
+	bundle exec jekyll serve --watch --drafts
 
 # # load ALL other makefiles in ./scripts/make/*
 # THIS_FILE := $(lastword $(MAKEFILE_LIST))

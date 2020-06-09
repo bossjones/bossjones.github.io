@@ -41,7 +41,8 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url: "https://tonydark.io" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://tonydark.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bossjones
 github_username:  bossjones
 linkedin_username: bossjones
@@ -133,3 +134,6 @@ permalink:  /blog/:year/:month/:day/:title/
 #       layout: "post"
 #       comments: true
 #       share: true
+
+# TODO: Replace with your own
+# google_analytics: UA-104959730-1
