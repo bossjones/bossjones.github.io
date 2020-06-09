@@ -1,0 +1,301 @@
+---
+AllCops:
+  Exclude:
+    - 'gems/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+    - 'lib/tasks/*.rake'
+    - 'spec/support/**/*'
+
+AccessorMethodName:
+  Enabled: false
+
+ActionFilter:
+  Enabled: false
+
+Alias:
+  Enabled: false
+
+ArrayJoin:
+  Enabled: false
+
+AsciiComments:
+  Enabled: false
+
+AsciiIdentifiers:
+  Enabled: false
+
+Attr:
+  Enabled: false
+
+BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
+
+BlockNesting:
+  Enabled: false
+
+CaseEquality:
+  Enabled: false
+
+CharacterLiteral:
+  Enabled: false
+
+ClassAndModuleChildren:
+  Enabled: false
+
+ClassLength:
+  Enabled: false
+
+ClassVars:
+  Enabled: false
+
+CollectionMethods:
+  PreferredMethods:
+    find: detect
+    reduce: inject
+    collect: map
+    find_all: select
+
+ColonMethodCall:
+  Enabled: false
+
+CommentAnnotation:
+  Enabled: false
+
+CyclomaticComplexity:
+  Enabled: false
+
+DateTime:
+  Enabled: false
+
+Delegate:
+  Enabled: false
+
+Documentation:
+  Enabled: false
+
+DotPosition:
+  EnforcedStyle: trailing
+
+DoubleNegation:
+  Enabled: false
+
+EachWithObject:
+  Enabled: false
+
+EmptyLiteral:
+  Enabled: false
+
+Encoding:
+  Enabled: false
+
+EvenOdd:
+  Enabled: false
+
+FileName:
+  Enabled: false
+
+FlipFlop:
+  Enabled: false
+
+FormatString:
+  Enabled: false
+
+GlobalVars:
+  Enabled: false
+
+GuardClause:
+  Enabled: false
+
+IfUnlessModifier:
+  Enabled: false
+
+IfWithSemicolon:
+  Enabled: false
+
+Lambda:
+  Enabled: false
+
+LambdaCall:
+  Enabled: false
+
+LineEndConcatenation:
+  Enabled: false
+
+LineLength:
+  Max: 120
+
+MemoizedInstanceVariableName:
+  Enabled: false
+
+MethodLength:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 25
+
+ModuleFunction:
+  Enabled: false
+
+NegatedIf:
+  Enabled: false
+
+NegatedWhile:
+  Enabled: false
+
+Next:
+  Enabled: false
+
+NilComparison:
+  Enabled: false
+
+Not:
+  Enabled: false
+
+NumericLiterals:
+  Enabled: false
+
+OneLineConditional:
+  Enabled: false
+
+BinaryOperatorParameterName:
+  Enabled: false
+
+ParameterLists:
+  Enabled: false
+
+PercentLiteralDelimiters:
+  Enabled: false
+
+PerlBackrefs:
+  Enabled: false
+
+PredicateName:
+  NamePrefixBlacklist:
+    - is_
+
+Proc:
+  Enabled: false
+
+RaiseArgs:
+  Enabled: false
+
+RedundantReturn:
+  Enabled: false
+
+RegexpLiteral:
+  Enabled: false
+
+SelfAssignment:
+  Enabled: false
+
+SingleLineBlockParams:
+  Enabled: false
+
+SingleLineMethods:
+  Enabled: false
+
+SignalException:
+  Enabled: false
+
+SpaceInLambdaLiteral:
+  EnforcedStyle: require_space
+
+SpecialGlobalVars:
+  Enabled: false
+
+StringLiterals:
+  EnforcedStyle: double_quotes
+
+SymbolArray:
+  EnforcedStyle: brackets
+
+# VariableInterpolation:
+#   Enabled: false
+
+# TrailingCommaInArguments:
+#   Enabled: false
+
+# TrailingCommaInArrayLiteral:
+#   Enabled: false
+
+# TrailingCommaInHashLiteral:
+#   Enabled: false
+
+TrivialAccessors:
+  Enabled: false
+
+UncommunicativeMethodParamName:
+  Enabled: false
+
+VariableInterpolation:
+  Enabled: false
+
+WhenThen:
+  Enabled: false
+
+WhileUntilModifier:
+  Enabled: false
+
+WordArray:
+  Enabled: false
+
+# Lint
+
+AmbiguousOperator:
+  Enabled: false
+
+AmbiguousRegexpLiteral:
+  Enabled: false
+
+AssignmentInCondition:
+  Enabled: false
+
+ConditionPosition:
+  Enabled: false
+
+DeprecatedClassMethods:
+  Enabled: false
+
+ElseLayout:
+  Enabled: false
+
+HandleExceptions:
+  Enabled: false
+
+LiteralAsCondition:
+  Enabled: false
+
+LiteralInInterpolation:
+  Enabled: false
+
+Loop:
+  Enabled: false
+
+ParenthesesAsGroupedExpression:
+  Enabled: false
+
+RequireParentheses:
+  Enabled: false
+
+TrailingCommaInArguments:
+  Enabled: true
+  EnforcedStyleForMultiline: no_comma
+
+TrailingCommaInArrayLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: comma
+
+TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: comma
+
+UnderscorePrefixedVariableName:
+  Enabled: false
+
+Void:
+  Enabled: false
