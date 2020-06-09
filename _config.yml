@@ -16,83 +16,120 @@
 # paginate: 5
 # exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 title:            The Black Tony Stark ( TONY DARK ) And His Thoughts
-header-img:       img/home-bg.jpg
-description:      "In my spare time I build things. Follow me on my journey to Automate my house and hack everything. #DevOps #sysadmin #python"
-logo:             logo.jpg
-disqus_shortname: bossjones
+tagline: Senior DevOps Engineer
+email: jarvis@theblacktonystark.com
+# header-img:       img/home-bg.jpg
+description: > # this means to ignore newlines until "baseurl:"
+  In my spare time I build things. Follow me on my journey to Automate my house and hack everything. #DevOps #sysadmin #python.
 
-#default_bg:       #SOME-IMAGE.JPG
-search:           true
-share:            true
-# Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
-readtime:         true
-# Turn on or off the fin animations in the header and footer
-animated_fins:    true
-# Specify the fin color in RGB value
-fin_color:        "255,255,255"
+baseurl: "" # the subpath of your site, e.g. /blog
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://tonydark.io
+url: "https://tonydark.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: bossjones
+github_username:  bossjones
+linkedin_username: bossjones
 
-# Owner/author information
-owner:
-  name:           Tony Dark
-  avatar:         code-bevatar.jpg
-  description:    "Making Behance More Awesome"
-  email:          bossjones@theblacktonystark.com
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
 
-  # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        bossjones
-  github:         bossjones
-  facebook_username: iambossjones
-  # google_plus: 112974790056521154109
 
-  # For Google Authorship https://plus.google.com/authorship
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    #+joesepi
+disqus:
+  shortname: bossjones
+# logo:             logo.jpg
+# disqus_shortname: bossjones
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: UA-61421111-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# #default_bg:       #SOME-IMAGE.JPG
+# search:           true
+# share:            true
+# # Read Time is a calculator tp provide post read-time based on word count. Usage is recommended.
+# readtime:         true
+# # Turn on or off the fin animations in the header and footer
+# animated_fins:    true
+# # Specify the fin color in RGB value
+# fin_color:        "255,255,255"
+# #Your site's domain goes here. Leave localhost server or blank when working locally.
+# # url:              http://tonydark.io
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-highlighter: pygments
-markdown:    kramdown
-paginate:    6
-paginate_path: "page:num"
-excerpt_separator: <!--more-->
+# # Owner/author information
+# owner:
+#   name:           Tony Dark
+#   avatar:         code-bevatar.jpg
+#   description:    "Making Behance More Awesome"
+#   email:          bossjones@theblacktonystark.com
+
+#   # Social networking links are used in author-bio sidebar. Update and remove as you like.
+#   twitter:        bossjones
+#   github:         bossjones
+#   facebook_username: iambossjones
+#   # google_plus: 112974790056521154109
+
+#   # For Google Authorship https://plus.google.com/authorship
+#   # google plus id, include the '+', eg +mmistakes
+#   google_plus:    #+joesepi
+
+# # Analytics and webmaster tools stuff goes here
+# google_analytics: UA-61421111-1
+# google_verify:
+# # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:
+
+# # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+# timezone:    America/New_York
+# future:      true
+# highlighter: pygments
+# markdown:    kramdown
+# paginate:    6
+# paginate_path: "page:num"
+# excerpt_separator: <!--more-->
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:  /:year/:month/:day/:title/
+# permalink:  /:year/:month/:day/:title/
+permalink:  /blog/:year/:month/:day/:title/
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
+# kramdown:
+#   auto_ids: true
+#   footnote_nr: 1
+#   entity_output: as_char
+#   toc_levels: 1..6
+#   use_coderay: false
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+# include: [".htaccess"]
+# exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true
-      share: true
-  -
-    scope:
-      path: ""
-      type: "drafts"
-    values:
-      layout: "post"
-      comments: true
-      share: true
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: "post"
+#       comments: true
+#       share: true
+#   -
+#     scope:
+#       path: ""
+#       type: "drafts"
+#     values:
+#       layout: "post"
+#       comments: true
+#       share: true

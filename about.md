@@ -8,6 +8,10 @@ chart: true
 
 ---
 
-TONY DARK. DevOps Engineer @Behance (acq'd by @Adobe). NUPE, WAHOO. Commonly referred to as #heron, SON OF BABYLON, Le #Hyena. I build shit.
+TONY DARK. Sr DevOps Engineer @Behance (acq'd by @Adobe).
 
-Gramercy Park, NY
+NUPE, WAHOO. Commonly referred to as #heron, SON OF BABYLON, Le #Hyena.
+
+I build shit.
+
+**Wall St, NY**
