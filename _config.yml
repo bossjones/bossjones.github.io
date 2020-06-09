@@ -41,8 +41,8 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-# url: "https://tonydark.io" # the base hostname & protocol for your site, e.g. http://example.com
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://tonydark.io" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bossjones
 github_username:  bossjones
 linkedin_username: bossjones
